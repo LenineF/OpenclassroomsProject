@@ -1,0 +1,70 @@
+body 
+{
+	/*
+	background-color: gray;
+	background-image: url("images/mona.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top right;
+	*/
+
+	background: url("images/mon.png") fixed no-repeat;
+
+}
+
+p{
+	color: blue; /* fsdfsdfsdf*/
+	font-size: 1.5em;
+	font-family:arial;
+	clear: right;
+background-image: url("images/mon.png");
+
+}
+a:hover 
+{
+	color: green;
+	border-left: 3px solid black;
+
+}
+a:active 
+{
+	color: red;
+}
+a:focus /*c'est bien pour les formulaires*/
+{
+	background-color: orange;
+}
+a:visited
+{
+	color: #000000;
+}
+.intro 
+{
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+
+}
+h1 
+{
+	border: 3px blue solid;
+	border-top: 3px blue dotted;
+	border-right: 3px black solid;
+	border-bottom: 3px gay dotted;
+	border-left: 3px orange solid;
+	border-radius: 20px;
+	box-shadow: 6px 6px 10px black;
+	text-shadow: 6px 6px 10px black;
+	text-align: center;
+	background: rgb(255, 0, 0, 0.2);
+	color: white;
+	/*opacity: 0.6;*/
+
+
+}
+.flotant
+{
+	float: right ;
+
+}
